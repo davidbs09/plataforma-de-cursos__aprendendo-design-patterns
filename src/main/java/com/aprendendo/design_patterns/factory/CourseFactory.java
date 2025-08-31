@@ -11,6 +11,7 @@ public class CourseFactory {
             case "online":
                 return new OnlineCourse(name, price);
             case "presential":
+            case "presencial":
                 return new PresentialCourse(name, price);
             case "workshop":
                 return new Workshop(name, price);
